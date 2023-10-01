@@ -1,0 +1,119 @@
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+Automatically
+Using var
+Using let
+Using const
+
+
+
+JavaScript Arithmetic Operators
+Arithmetic operators perform arithmetic on numbers (literals or variables).
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Remainder)
+++	Increment
+--	Decrement
+
+
+
+JavaScript Assignment Operators
+Assignment operators assign values to JavaScript variables.
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+
+
+Boolean Values
+Very often, in programming, you will need a data type that can only have one of two values, like
+
+YES / NO
+ON / OFF
+TRUE / FALSE
+
+False Values are:
+false
+null
+undefined
+0
+-0
+NaN
+'', "", ``, (empty strings)
+For this, JavaScript has a Boolean data type. It can only take the values true or false.
+
+
+
+
+Comparison Operators
+Comparison operators are used in logical statements to determine equality or difference between variables or values.
+
+==	equal to	x == 8	false	
+x == 5	true	
+x == "5"	true	
+===	equal value and equal type	x === 5	true	
+x === "5"	false	
+!=	not equal	x != 8	true	
+!==	not equal value or not equal type	x !== 5	false	
+x !== "5"	true	
+x !== 8	true	
+>	greater than	x > 8	false	
+<	less than	x < 8	true	
+>=	greater than or equal to	x >= 8	false	
+<=	less than or equal to	x <= 8	true
+
+
+
+
+Logical Operators
+Logical operators are used to determine the logic between variables or values.
+
+Given that x = 6 and y = 3, the table below explains the logical operators:
+
+Operator
+&&	and	(x < 10 && y > 1) is true	
+||	or	(x == 5 || y == 5) is false	
+!	not	!(x == y) is true
+
+
+
+
+
+JavaScript strings are for storing and manipulating text.
+
+A JavaScript string is zero or more characters written inside quotes.
+
+Example
+let text = "John Doe";
+
+
+
+
+
+
+Number Methods
+Methods that can be used to convert strings to numbers:
+
+Method	
+Number()	Returns a number, converted from its argument
+parseFloat()	Parses a string and returns a floating point number
+parseInt()	Parses a string and returns an integer
+
+
+
+
+
+
+
